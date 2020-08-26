@@ -1,0 +1,15 @@
+{
+	"name": "php7tpl/example",
+	"type": "extension",
+	"license": "MIT",
+	"minimum-stability": "dev",
+	"require": {
+
+	},
+	"autoload": {
+		"psr-4": {
+			"PhpTpl\\Example\\": "src",
+			"PhpTpl\\Example\\Tests\\": "tests"
+		}
+	}
+}
