@@ -1,5 +1,5 @@
 {
-	"name": "php7tpl/example",
+	"name": "znexample/composer-package",
 	"type": "extension",
 	"license": "MIT",
 	"minimum-stability": "dev",
@@ -9,7 +9,9 @@
 	"autoload": {
 		"psr-4": {
 			"PhpTpl\\Example\\": "src",
-			"PhpTpl\\Example\\Tests\\": "tests"
+			"PhpTpl\\Example\\Tests\\": "tests",
+			"ZnExample\\ComposerPackage\\": "src",
+			"ZnExample\\ComposerPackage\\Tests\\": "tests"
 		}
 	}
 }
