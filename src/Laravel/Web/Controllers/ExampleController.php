@@ -1,6 +1,6 @@
 <?php
 
-namespace PhpLab\Sandbox\Example\Laravel\Web\Controllers;
+namespace ZnExample\ComposerPackage\Laravel\Web\Controllers;
 
 use Illuminate\Routing\Controller;
 

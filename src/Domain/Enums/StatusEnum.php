@@ -1,9 +1,9 @@
 <?php
 
-namespace PhpLab\Sandbox\Example\Domain\Enums;
+namespace ZnExample\ComposerPackage\Domain\Enums;
 
-use PhpLab\Core\Domain\Base\BaseEnum;
-use PhpLab\Core\Libs\I18Next\Facades\I18Next;
+use ZnCore\Base\Domain\Base\BaseEnum;
+use ZnCore\Base\Libs\I18Next\Facades\I18Next;
 
 class StatusEnum extends BaseEnum
 {

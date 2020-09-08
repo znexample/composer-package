@@ -1,10 +1,10 @@
 <?php
 
 use Symfony\Component\Console\Application;
-use PhpLab\Eloquent\Db\Helpers\Manager;
-use PhpLab\Sandbox\Example\Symfony\Console\Commands\BookCommand;
-use PhpLab\Sandbox\Example\Domain\Services\BookService;
-use PhpLab\Sandbox\Example\Domain\Repositories\Eloquent\BookRepository;
+use ZnCore\Db\Db\Helpers\Manager;
+use ZnExample\ComposerPackage\Symfony\Console\Commands\BookCommand;
+use ZnExample\ComposerPackage\Domain\Services\BookService;
+use ZnExample\ComposerPackage\Domain\Repositories\Eloquent\BookRepository;
 
 /**
  * @var Application $application

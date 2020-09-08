@@ -1,6 +1,6 @@
 <?php
 
-namespace PhpLab\Sandbox\Example\Yii\Admin;
+namespace ZnExample\ComposerPackage\Yii\Admin;
 
 use yii\base\Module as YiiModule;
 

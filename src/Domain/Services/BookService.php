@@ -1,10 +1,10 @@
 <?php
 
-namespace PhpLab\Sandbox\Example\Domain\Services;
+namespace ZnExample\ComposerPackage\Domain\Services;
 
-use PhpLab\Core\Domain\Base\BaseCrudService;
-use PhpLab\Sandbox\Example\Domain\Interfaces\Repositories\BookRepositoryInterface;
-use PhpLab\Sandbox\Example\Domain\Interfaces\Services\BookServiceInterface;
+use ZnCore\Base\Domain\Base\BaseCrudService;
+use ZnExample\ComposerPackage\Domain\Interfaces\Repositories\BookRepositoryInterface;
+use ZnExample\ComposerPackage\Domain\Interfaces\Services\BookServiceInterface;
 
 class BookService extends BaseCrudService implements BookServiceInterface
 {

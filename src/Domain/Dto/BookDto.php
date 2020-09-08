@@ -1,6 +1,6 @@
 <?php
 
-namespace PhpLab\Sandbox\Example\Domain\Dto;
+namespace ZnExample\ComposerPackage\Domain\Dto;
 
 class BookDto
 {

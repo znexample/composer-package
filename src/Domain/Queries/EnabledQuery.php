@@ -1,9 +1,9 @@
 <?php
 
-namespace PhpLab\Sandbox\Example\Domain\Queries;
+namespace ZnExample\ComposerPackage\Domain\Queries;
 
-use PhpLab\Core\Domain\Libs\Query;
-use PhpLab\Sandbox\Example\Domain\Enums\StatusEnum;
+use ZnCore\Base\Domain\Libs\Query;
+use ZnExample\ComposerPackage\Domain\Enums\StatusEnum;
 
 class EnabledQuery extends Query
 {

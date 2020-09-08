@@ -1,10 +1,10 @@
 <?php
 
-namespace PhpLab\Sandbox\Example\Domain\Repositories\Eloquent;
+namespace ZnExample\ComposerPackage\Domain\Repositories\Eloquent;
 
-use PhpLab\Eloquent\Db\Base\BaseEloquentCrudRepository;
-use PhpLab\Sandbox\Example\Domain\Entities\BookEntity;
-use PhpLab\Sandbox\Example\Domain\Interfaces\Repositories\BookRepositoryInterface;
+use ZnCore\Db\Db\Base\BaseEloquentCrudRepository;
+use ZnExample\ComposerPackage\Domain\Entities\BookEntity;
+use ZnExample\ComposerPackage\Domain\Interfaces\Repositories\BookRepositoryInterface;
 
 class BookRepository extends BaseEloquentCrudRepository implements BookRepositoryInterface
 {

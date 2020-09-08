@@ -1,9 +1,9 @@
 <?php
 
-namespace PhpLab\Sandbox\Example\Symfony\Api\Controllers;
+namespace ZnExample\ComposerPackage\Symfony\Api\Controllers;
 
-use PhpLab\Rest\Base\BaseCrudApiController;
-use PhpLab\Sandbox\Example\Domain\Interfaces\Services\BookServiceInterface;
+use ZnLib\Rest\Base\BaseCrudApiController;
+use ZnExample\ComposerPackage\Domain\Interfaces\Services\BookServiceInterface;
 
 class BookController extends BaseCrudApiController
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace PhpLab\Sandbox\Example\Domain\ValueObjects;
+namespace ZnExample\ComposerPackage\Domain\ValueObjects;
 
 class MoneyValueObject
 {

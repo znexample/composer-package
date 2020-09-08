@@ -1,6 +1,6 @@
 <?php
 
-namespace PhpLab\Sandbox\Example\Symfony;
+namespace ZnExample\ComposerPackage\Symfony;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

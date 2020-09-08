@@ -1,8 +1,8 @@
 <?php
 
-namespace PhpLab\Sandbox\Example\Domain\Enums;
+namespace ZnExample\ComposerPackage\Domain\Enums;
 
-use PhpLab\Core\Domain\Base\BaseEnum;
+use ZnCore\Base\Domain\Base\BaseEnum;
 
 class ExampleBookPermissionEnum extends BaseEnum
 {

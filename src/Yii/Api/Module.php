@@ -1,6 +1,6 @@
 <?php
 
-namespace PhpLab\Sandbox\Example\Yii\Api;
+namespace ZnExample\ComposerPackage\Yii\Api;
 
 use yii\base\Module as YiiModule;
 

@@ -1,9 +1,9 @@
 <?php
 
-namespace PhpLab\Sandbox\Example\Yii\Api\controllers;
+namespace ZnExample\ComposerPackage\Yii\Api\controllers;
 
-use PhpLab\Sandbox\Example\Domain\Enums\ExampleBookPermissionEnum;
-use PhpLab\Sandbox\Example\Domain\Interfaces\Services\BookServiceInterface;
+use ZnExample\ComposerPackage\Domain\Enums\ExampleBookPermissionEnum;
+use ZnExample\ComposerPackage\Domain\Interfaces\Services\BookServiceInterface;
 use RocketLab\Bundle\Rest\Base\BaseCrudController;
 use yii\base\Module;
 

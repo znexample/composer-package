@@ -1,6 +1,6 @@
 <?php
 
-namespace PhpLab\Sandbox\Example\Symfony\Console\Commands;
+namespace ZnExample\ComposerPackage\Symfony\Console\Commands;
 
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;

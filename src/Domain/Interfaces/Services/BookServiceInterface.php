@@ -1,8 +1,8 @@
 <?php
 
-namespace PhpLab\Sandbox\Example\Domain\Interfaces\Services;
+namespace ZnExample\ComposerPackage\Domain\Interfaces\Services;
 
-use PhpLab\Core\Domain\Interfaces\Service\CrudServiceInterface;
+use ZnCore\Base\Domain\Interfaces\Service\CrudServiceInterface;
 
 /**
  * Интерфейс репозитория гарантирует поддержку контракта для клиетского кода.

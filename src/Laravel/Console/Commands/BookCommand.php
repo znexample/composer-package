@@ -1,6 +1,6 @@
 <?php
 
-namespace PhpLab\Sandbox\Example\Laravel\Console\Commands;
+namespace ZnExample\ComposerPackage\Laravel\Console\Commands;
 
 use Illuminate\Console\Command;
 

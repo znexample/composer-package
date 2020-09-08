@@ -1,9 +1,9 @@
 <?php
 
-namespace PhpLab\Sandbox\Example\Symfony\Web\Controllers;
+namespace ZnExample\ComposerPackage\Symfony\Web\Controllers;
 
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
-use PhpLab\Sandbox\Example\Domain\Interfaces\Services\BookServiceInterface;
+use ZnExample\ComposerPackage\Domain\Interfaces\Services\BookServiceInterface;
 
 class BookController extends AbstractController
 {

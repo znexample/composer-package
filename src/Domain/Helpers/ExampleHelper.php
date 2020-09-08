@@ -1,6 +1,6 @@
 <?php
 
-namespace PhpLab\Sandbox\Example\Domain\Helpers;
+namespace ZnExample\ComposerPackage\Domain\Helpers;
 
 class ExampleHelper
 {
