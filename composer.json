@@ -8,8 +8,6 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"PhpTpl\\Example\\": "src",
-			"PhpTpl\\Example\\Tests\\": "tests",
 			"ZnExample\\ComposerPackage\\": "src",
 			"ZnExample\\ComposerPackage\\Tests\\": "tests"
 		}
