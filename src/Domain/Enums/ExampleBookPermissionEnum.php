@@ -2,7 +2,7 @@
 
 namespace ZnExample\ComposerPackage\Domain\Enums;
 
-use ZnCore\Base\Domain\Base\BaseEnum;
+use ZnCore\Domain\Base\BaseEnum;
 
 class ExampleBookPermissionEnum extends BaseEnum
 {

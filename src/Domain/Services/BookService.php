@@ -2,7 +2,7 @@
 
 namespace ZnExample\ComposerPackage\Domain\Services;
 
-use ZnCore\Base\Domain\Base\BaseCrudService;
+use ZnCore\Domain\Base\BaseCrudService;
 use ZnExample\ComposerPackage\Domain\Interfaces\Repositories\BookRepositoryInterface;
 use ZnExample\ComposerPackage\Domain\Interfaces\Services\BookServiceInterface;
 

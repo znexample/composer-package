@@ -2,7 +2,7 @@
 
 namespace ZnExample\ComposerPackage\Domain\Queries;
 
-use ZnCore\Base\Domain\Libs\Query;
+use ZnCore\Domain\Libs\Query;
 use ZnExample\ComposerPackage\Domain\Enums\StatusEnum;
 
 class EnabledQuery extends Query

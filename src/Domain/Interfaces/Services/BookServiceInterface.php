@@ -2,7 +2,7 @@
 
 namespace ZnExample\ComposerPackage\Domain\Interfaces\Services;
 
-use ZnCore\Base\Domain\Interfaces\Service\CrudServiceInterface;
+use ZnCore\Domain\Interfaces\Service\CrudServiceInterface;
 
 /**
  * Интерфейс репозитория гарантирует поддержку контракта для клиетского кода.
