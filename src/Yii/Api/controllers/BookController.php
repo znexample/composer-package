@@ -4,7 +4,7 @@ namespace ZnExample\ComposerPackage\Yii\Api\controllers;
 
 use ZnExample\ComposerPackage\Domain\Enums\ExampleBookPermissionEnum;
 use ZnExample\ComposerPackage\Domain\Interfaces\Services\BookServiceInterface;
-use RocketLab\Bundle\Rest\Base\BaseCrudController;
+use ZnLib\Rest\Yii2\Base\BaseCrudController;
 use yii\base\Module;
 
 class BookController extends BaseCrudController
