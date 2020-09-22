@@ -1,6 +1,6 @@
 <?php
 
-namespace ZnExample\ComposerPackage\Yii\Api\controllers;
+namespace ZnExample\ComposerPackage\Yii2\Api\controllers;
 
 use ZnExample\ComposerPackage\Domain\Enums\ExampleBookPermissionEnum;
 use ZnExample\ComposerPackage\Domain\Interfaces\Services\BookServiceInterface;

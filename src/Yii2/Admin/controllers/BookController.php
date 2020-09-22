@@ -1,6 +1,6 @@
 <?php
 
-namespace ZnExample\ComposerPackage\Yii\Admin\controllers;
+namespace ZnExample\ComposerPackage\Yii2\Admin\controllers;
 
 use yii2rails\domain\data\Query;
 use yii2rails\domain\web\ActiveController as Controller;

@@ -2,7 +2,7 @@
 
 use Symfony\Component\Console\Application;
 use ZnCore\Db\Db\Helpers\Manager;
-use ZnExample\ComposerPackage\Symfony\Console\Commands\BookCommand;
+use ZnExample\ComposerPackage\Symfony4\Console\Commands\BookCommand;
 use ZnExample\ComposerPackage\Domain\Services\BookService;
 use ZnExample\ComposerPackage\Domain\Repositories\Eloquent\BookRepository;
 

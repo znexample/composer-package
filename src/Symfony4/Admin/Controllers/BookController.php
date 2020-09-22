@@ -1,6 +1,6 @@
 <?php
 
-namespace ZnExample\ComposerPackage\Symfony\Web\Controllers;
+namespace ZnExample\ComposerPackage\Symfony4\Admin\Controllers;
 
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use ZnExample\ComposerPackage\Domain\Interfaces\Services\BookServiceInterface;

@@ -1,6 +1,6 @@
 <?php
 
-namespace ZnExample\ComposerPackage\Symfony\Console\Commands;
+namespace ZnExample\ComposerPackage\Symfony4\Console\Commands;
 
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;

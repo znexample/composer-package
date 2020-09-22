@@ -1,6 +1,6 @@
 <?php
 
-namespace ZnExample\ComposerPackage\Symfony;
+namespace ZnExample\ComposerPackage\Symfony4;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

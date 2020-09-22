@@ -1,6 +1,6 @@
 <?php
 
-namespace ZnExample\ComposerPackage\Yii\Admin;
+namespace ZnExample\ComposerPackage\Yii2\Admin;
 
 use yii\base\Module as YiiModule;
 
