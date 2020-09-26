@@ -2,7 +2,7 @@
 
 namespace ZnExample\ComposerPackage\Symfony4\Api\Controllers;
 
-use ZnLib\Rest\Base\BaseCrudApiController;
+use ZnLib\Rest\Symfony4\Base\BaseCrudApiController;
 use ZnExample\ComposerPackage\Domain\Interfaces\Services\BookServiceInterface;
 
 class BookController extends BaseCrudApiController
