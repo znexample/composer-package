@@ -2,7 +2,9 @@
 
 namespace ZnExample\ComposerPackage\Domain\Enums;
 
-class ExampleBookPermissionEnum
+use ZnCore\Base\Interfaces\GetLabelsInterface;
+
+class ExampleBookPermissionEnum implements GetLabelsInterface
 {
 
     const WRITE = 'oExampleBookWrite';
