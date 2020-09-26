@@ -2,9 +2,7 @@
 
 namespace ZnExample\ComposerPackage\Domain\Enums;
 
-use ZnCore\Domain\Base\BaseEnum;
-
-class ExampleBookPermissionEnum extends BaseEnum
+class ExampleBookPermissionEnum
 {
 
     const WRITE = 'oExampleBookWrite';

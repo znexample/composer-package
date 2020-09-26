@@ -2,10 +2,9 @@
 
 namespace ZnExample\ComposerPackage\Domain\Enums;
 
-use ZnCore\Domain\Base\BaseEnum;
 use ZnCore\Base\Libs\I18Next\Facades\I18Next;
 
-class StatusEnum extends BaseEnum
+class StatusEnum
 {
 
     const DELETED = -10;
