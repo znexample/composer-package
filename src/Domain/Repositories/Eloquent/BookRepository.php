@@ -2,7 +2,7 @@
 
 namespace ZnExample\ComposerPackage\Domain\Repositories\Eloquent;
 
-use ZnCore\Db\Db\Base\BaseEloquentCrudRepository;
+use ZnLib\Db\Base\BaseEloquentCrudRepository;
 use ZnExample\ComposerPackage\Domain\Entities\BookEntity;
 use ZnExample\ComposerPackage\Domain\Interfaces\Repositories\BookRepositoryInterface;
 

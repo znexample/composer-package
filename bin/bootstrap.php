@@ -1,7 +1,7 @@
 <?php
 
 use Symfony\Component\Console\Application;
-use ZnCore\Db\Db\Capsule\Manager;
+use ZnLib\Db\Capsule\Manager;
 use ZnExample\ComposerPackage\Symfony4\Console\Commands\BookCommand;
 use ZnExample\ComposerPackage\Domain\Services\BookService;
 use ZnExample\ComposerPackage\Domain\Repositories\Eloquent\BookRepository;
