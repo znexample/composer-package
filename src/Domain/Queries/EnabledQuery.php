@@ -10,7 +10,7 @@ class EnabledQuery extends Query
 
     public function __construct()
     {
-        $this->where('status', StatusEnum::ENABLE);
+        $this->where('status', StatusEnum::ENABLED);
     }
 
 }
