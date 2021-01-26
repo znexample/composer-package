@@ -18,6 +18,11 @@ class BookEntity implements ValidateEntityInterface, EntityIdInterface
     private $createdAt = null;
     private $updatedAt = null;
 
+    public function __construct()
+    {
+        $this->createdAt = new \DateTime();
+    }
+
     public function validationRules()
     {
         return [
