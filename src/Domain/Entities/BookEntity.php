@@ -2,11 +2,12 @@
 
 namespace ZnExample\ComposerPackage\Domain\Entities;
 
+use Symfony\Component\Validator\Mapping\ClassMetadata;
 use ZnCore\Domain\Interfaces\Entity\EntityIdInterface;
-use ZnCore\Domain\Interfaces\Entity\ValidateEntityInterface;
+use ZnCore\Domain\Interfaces\Entity\ValidateEntityByMetadataInterface;
 use Symfony\Component\Validator\Constraints as Assert;
 
-class BookEntity implements ValidateEntityInterface, EntityIdInterface
+class BookEntity implements ValidateEntityByMetadataInterface, EntityIdInterface
 {
 
     private $id = null;
@@ -23,25 +24,17 @@ class BookEntity implements ValidateEntityInterface, EntityIdInterface
         $this->createdAt = new \DateTime();
     }
 
-    public function validationRules()
+    public static function loadValidatorMetadata(ClassMetadata $metadata)
     {
-        return [
-            'title' => [
-                new Assert\NotBlank,
-                new Assert\Length([
-                    'min' => 3,
-                    'max' => 50,
-                ]),
-            ],
-            'levels' => [
-                new Assert\NotBlank,
-                new Assert\Positive,
-            ],
-            'status' => [
-                new Assert\NotBlank,
-                new Assert\Positive,
-            ],
-        ];
+        $metadata->addPropertyConstraint('title', new Assert\NotBlank);
+        $metadata->addPropertyConstraint('title', new Assert\Assert\Length([
+            'min' => 3,
+            'max' => 50,
+        ]));
+        $metadata->addPropertyConstraint('levels', new Assert\NotBlank);
+        $metadata->addPropertyConstraint('levels', new Assert\Positive);
+        $metadata->addPropertyConstraint('status', new Assert\NotBlank);
+        $metadata->addPropertyConstraint('status', new Assert\Positive);
     }
 
     public function setId($value)
